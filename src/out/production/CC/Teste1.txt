@@ -1,0 +1,88 @@
+As características das ligações de rede têm uma enorme influência nos níveis de Transporte e de Aplicação. Discuta, relacionando
+a resposta com as experiências realizadas, as influências das situações de perda ou duplicação de pacotes IP no desempenho global de Aplicações fiáveis
+(se possível, relacionando com alguns dos mecanismos de transporte envolvidos).
+
+Quando o nosso objetivo recai sobre o desenvolvimento de uma aplicação fiável é de extrema importância a escolha apropriada do protocolo
+de transporte.
+Desta forma existem duas opções possíveis, o protocolo TCP ou o protocolo UDP.
+No entanto quando nos referimos a aplicações fiáveis o nosso primeiro pensamento é o TCP, pois este fornece um serviço garantido, no qual a
+ informação enviada pela aplicação alcançará, sem erros, duplicação e desordenamento, a camada correspondente na máquina destino.
+ Isto porque este protocolo possui para além de mecanismos de controlo de erros, controlo de fluxo e congestionamento. O mecanismo de
+  controlo de fluxo tem um papel importante no que toca a proteger o recetor de uma subcarga de pacotes, e o controlo de congestionamento
+   contribui para a proteção da rede.
+No entanto quando nos encontramos perante uma rede fraca a probabilidade de congestionamento e consequentes atrasos na transferência
+ e perdas de pacotes provoca a necessidade de retransmissão de pacotes e mensagens de erro o que para alem de afetar diretamente o
+ desempenho da aplicação também leva a duplicação de pacotes por vezes desnecessários.
+Deste modo é fácil de ver a grande influência que as caraterísticas da rede têm neste protocolo.
+Por outro lado, também pode ser usado o UDP. A sua vantagem cai no facto de este ser um protocolo direcionado a velocidade de
+transferência e não propriamente a fiabilidade de transmissão. Dessa forma perante uma rede fraca quando ocorre perdas de pacotes
+
+estas não afetam de forma drástica o funcionamento da aplicação. Como não há verificação na transferência de pacotes por parte do
+protocolo não há a possibilidade de reenvio dos mesmos o que significa que não vai haver pacotes duplicados, não sobrecarregando
+a rede, nem problemas quanto a congestão dados.
+
+As características das ligações de rede têm uma enorme influência nos níveis de Transporte e de Aplicação. Discuta, relacionando a
+ resposta com as experiências realizadas, as influências das situações de perda ou duplicação de pacotes IP no desempenho global de
+  Aplicações fiáveis (se possível, relacionando com alguns dos mecanismos de transporte envolvidos).
+
+Quando o nosso objetivo recai sobre o desenvolvimento de uma aplicação fiável é de extrema importância a escolha apropriada do
+ protocolo de transporte.
+Desta forma existem duas opções possíveis, o protocolo TCP ou o protocolo UDP.
+No entanto quando nos referimos a aplicações fiáveis o nosso primeiro pensamento é o TCP, pois este fornece um
+serviço garantido, no qual a informação enviada pela aplicação alcançará, sem erros, duplicação e desordenamento,
+ a camada correspondente na máquina destino. Isto porque este protocolo possui para além de mecanismos de controlo
+ de erros, controlo de fluxo e congestionamento. O mecanismo de controlo de fluxo tem um papel importante no que toca
+ a proteger o recetor de uma subcarga de pacotes, e o controlo de congestionamento contribui para a proteção da rede.
+No entanto quando nos encontramos perante uma rede fraca a probabilidade de congestionamento e consequentes atrasos
+na transferência e perdas de pacotes provoca a necessidade de retransmissão de pacotes e mensagens de erro o que para
+alem de afetar diretamente o desempenho da aplicação também leva a duplicação de pacotes por vezes desnecessários.
+Deste modo é fácil de ver a grande influência que as caraterísticas da rede têm neste protocolo.
+Por outro lado, também pode ser usado o UDP. A sua vantagem cai no facto de este ser um protocolo direcionado
+a velocidade de transferência e não propriamente a fiabilidade de transmissão. Dessa forma perante uma rede fraca
+quando ocorre perdas de pacotes estas não afetam de forma drástica o funcionamento da aplicação. Como não há verificação
+na transferência de pacotes por parte do protocolo não há a possibilidade de reenvio dos mesmos o que significa que não vai
+ haver pacotes duplicados, não sobrecarregando a rede, nem problemas quanto a congestão dados.
+
+As características das ligações de rede têm uma enorme influência nos níveis de Transporte e de Aplicação. Discuta, relacionando
+ a resposta com as experiências realizadas, as influências das situações de perda ou duplicação de pacotes IP no desempenho global
+ de Aplicações fiáveis (se possível, relacionando com alguns dos mecanismos de transporte envolvidos).
+
+Quando o nosso objetivo recai sobre o desenvolvimento de uma aplicação fiável é de extrema importância a escolha apropriada do
+ protocolo de transporte.
+Desta forma existem duas opções possíveis, o protocolo TCP ou o protocolo UDP.
+No entanto quando nos referimos a aplicações fiáveis o nosso primeiro pensamento é o TCP, pois este fornece um serviço garantido,
+no qual a informação enviada pela aplicação alcançará, sem erros, duplicação e desordenamento, a camada correspondente na máquina
+destino. Isto porque este protocolo possui para além de mecanismos de controlo de erros, controlo de fluxo e congestionamento.
+O mecanismo de controlo de fluxo tem um papel importante no que toca a proteger o recetor de uma subcarga de pacotes, e o controlo
+de congestionamento contribui para a proteção da rede.
+No entanto quando nos encontramos perante uma rede fraca a probabilidade de congestionamento e consequentes atrasos na transferência
+e perdas de pacotes provoca a necessidade de retransmissão de pacotes e mensagens de erro o que para alem de afetar diretamente o
+ desempenho da aplicação também leva a duplicação de pacotes por vezes desnecessários.
+Deste modo é fácil de ver a grande influência que as caraterísticas da rede têm neste protocolo.
+Por outro lado, também pode ser usado o UDP. A sua vantagem cai no facto de este ser um protocolo direcionado a velocidade de
+transferência e não propriamente a fiabilidade de transmissão. Dessa forma perante uma rede fraca quando ocorre perdas de pacotes
+ estas não afetam de forma drástica o funcionamento da aplicação. Como não há verificação na transferência de pacotes por parte do
+ protocolo não há a possibilidade de reenvio dos mesmos o que significa que não vai haver pacotes duplicados, não sobrecarregando
+  a rede, nem problemas quanto a congestão dados.
+
+As características das ligações de rede têm uma enorme influência nos níveis de Transporte e de Aplicação. Discuta, relacionando
+a resposta com as experiências realizadas, as influências das situações de perda ou duplicação de pacotes IP no desempenho global
+de Aplicações fiáveis (se possível, relacionando com alguns dos mecanismos de transporte envolvidos).
+
+Quando o nosso objetivo recai sobre o desenvolvimento de uma aplicação fiável é de extrema importância a escolha apropriada do
+ protocolo de transporte.
+Desta forma existem duas opções possíveis, o protocolo TCP ou o protocolo UDP.
+No entanto quando nos referimos a aplicações fiáveis o nosso primeiro pensamento é o TCP, pois este fornece um serviço garantido,
+no qual a informação enviada pela aplicação alcançará, sem erros, duplicação e desordenamento, a camada correspondente na máquina
+destino. Isto porque este protocolo possui para além de mecanismos de controlo de erros, controlo de fluxo e congestionamento.
+ O mecanismo de controlo de fluxo tem um papel importante no que toca a proteger o recetor de uma subcarga de pacotes, e
+  o controlo de congestionamento contribui para a proteção da rede.
+No entanto quando nos encontramos perante uma rede fraca a probabilidade de congestionamento e consequentes atrasos na
+ transferência e perdas de pacotes provoca a necessidade de retransmissão de pacotes e mensagens de erro o que para alem
+  de afetar diretamente o desempenho da aplicação também leva a duplicação de pacotes por vezes desnecessários.
+Deste modo é fácil de ver a grande influência que as caraterísticas da rede têm neste protocolo.
+Por outro lado, também pode ser usado o UDP. A sua vantagem cai no facto de este ser um protocolo direcionado a velocidade
+ de transferência e não propriamente a fiabilidade de transmissão. Dessa forma perante uma rede fraca quando ocorre perdas de
+  pacotes estas não afetam de forma drástica o funcionamento da aplicação. Como não há verificação na transferência de pacotes
+  por parte do protocolo não há a possibilidade de reenvio dos mesmos o que significa que não vai haver pacotes duplicados, não
+  sobrecarregando a rede, nem problemas quanto a congestão dados.
